@@ -1,0 +1,17 @@
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #111;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+}
+.bottom-nav a {
+  color: #888;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.bottom-nav a.active {
+  color: #fcbf49;
+}

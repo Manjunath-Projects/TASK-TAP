@@ -1,0 +1,116 @@
+.nearby-section {
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #111, #1a1a1a);
+  color: #fff;
+  text-align: center;
+}
+
+.nearby-header {
+  margin-bottom: 40px;
+}
+
+.nearby-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.nearby-header p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.places-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.place-card {
+  background-color: #222;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.place-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.6);
+}
+
+.place-text h3 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+  color: #fcbf49;
+}
+
+.place-text p {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+button.mark,
+button.visited {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button.mark {
+  background: #fcbf49;
+  color: #111;
+}
+
+button.mark:hover {
+  background: #f77f00;
+}
+
+button.visited {
+  background: #3fcf8e;
+  color: #000;
+}
+
+
+.nearby-header {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: white;
+}
+
+.coord-text {
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+.no-data {
+  text-align: center;
+  color: gray;
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+
+.back-button {
+  margin: 1rem auto;
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.back-button:hover {
+  background: #cc5200;
+}

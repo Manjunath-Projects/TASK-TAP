@@ -1,0 +1,73 @@
+.network-bar {
+  background: #222;
+  padding: 10px;
+  text-align: center;
+  color: #ccc;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #333;
+}
+
+.smart-explore {
+  padding-bottom: 2rem;
+  background: #111;
+  color: #eee;
+  min-height: 100vh;
+}
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.place-card {
+  background: #1c1c1c;
+  padding: 1rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease, opacity 0.4s ease;
+  opacity: 0;
+  transform: translateY(50px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.place-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.place-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #fcbf49;
+}
+
+.place-card p {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.place-card audio {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.place-card button {
+  margin-top: 0.75rem;
+  background: #fcbf49;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.visit-chart {
+  margin: 2rem auto;
+  display: block;
+  background: #222;
+  border-radius: 8px;
+  padding: 1rem;
+}
