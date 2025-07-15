@@ -18,11 +18,11 @@
   height: 100%;
   object-fit: cover;
   opacity: 0.25;
-  z-index: 0; /* <-- changed */
+  z-index: 0; /* ensures background stays behind content */
 }
 
 .hero-content {
-  position: relative; /* <-- ensure content is on top */
+  position: relative; /* ensures content appears above the background */
   z-index: 1;
 }
 
@@ -37,6 +37,7 @@
   margin: 0 auto;
 }
 
+/* New: Show location name */
 .location-tag {
   margin-top: 1rem;
   font-size: 1rem;
@@ -47,6 +48,7 @@
   display: inline-block;
 }
 
+/* New: Show location errors */
 .error-tag {
   margin-top: 1rem;
   font-size: 1rem;

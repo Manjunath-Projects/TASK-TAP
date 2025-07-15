@@ -21,7 +21,7 @@
   z-index: 0; /* <-- changed */
 }
 
-..hero-content {
+.hero-content {
   position: relative; /* <-- ensure content is on top */
   z-index: 1;
 }
